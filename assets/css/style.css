@@ -229,10 +229,41 @@ textarea{
  }
   /* index.html 980px */
   @media screen and (max-width:980px) {
+    #about-me-section{
+        margin-top:20px;
+        margin-bottom:300px;
+        background-position: center;
+        text-align: left;
+        float:center;
+        margin-right: 200px;
+        margin-left: 40px;
+    }
+    #about-me{
+        margin:30px;
+    }
+    #about-image-info{
+        margin:30px;
+        line-height:1.9;
+    }
+    img{
+        width:40%;
+        height:40%;
+        float:left;
+        margin-right:20px;
+    }
 
 }
   /* contact.html 980 px */
   @media screen and (max-width:980px) {
+    #contact-form-section{
+        margin-top:20px;
+        margin-right: 200px;
+        margin-left: 40px;
+        margin-bottom:300px;
+        background-position: center;
+        text-align: left;
+        float:center;
+    }
 }
 
   /* portfolio.html 980 px */
@@ -262,12 +293,47 @@ textarea{
     }  
 }
 
-
+/* Global */
+@media screen and (max-width:768px) {
+    header .container{
+        margin-left:5px;
+        width:100%; 
+        overflow: hidden;
+    }
+    header nav{
+        margin-right: 20px;
+        overflow:hidden;
+    }
+ }
 /* index.html 768 px */
 @media screen and (max-width:768px) {
+    #about-me-section{
+        margin-top:20px;
+        margin-bottom:300px;
+        background-position: center;
+        text-align: left;
+        float:center;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    img{
+        width:50%;
+        height:50%;
+        float:left;
+        margin-right:20px;
+    }
 }
 /* contact.html 768 px */
 @media screen and (max-width:768px) {
+    #contact-form-section{
+        margin-top:15px;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-bottom:300px;
+        background-position: center;
+        text-align: left;
+        float:center;
+    }
 }
 /* portfolio.html 768 px */
 @media screen and (max-width:768px) {
@@ -290,6 +356,9 @@ textarea{
 }
 /* Global */
 @media screen and (max-width:640px) {
+    header .container{
+        margin-left:0;
+    }
     header #logo-name h1{ 
         width:100%;
         text-align: center;
@@ -308,6 +377,11 @@ textarea{
 }
 /* index.html 640 px */
 @media screen and (max-width:640px) {
+    img{
+        width:100%;
+        height:100%;
+        margin-bottom: 20px;;
+    }
 }
 
 /* contact.html 640 px */
