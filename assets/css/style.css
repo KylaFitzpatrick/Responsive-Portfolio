@@ -223,9 +223,6 @@ textarea{
     .container{
         width: 100%;
     }
-    header{
-        position:static;
-    }
     header #logo-name h1{ 
         float:left;
         margin-left:40px;
@@ -308,9 +305,6 @@ textarea{
 
 /* Global */
 @media screen and (max-width:768px) {
-    header{
-        position:static;
-    }
     header .container{
         margin-left:5px;
         width:100%; 
