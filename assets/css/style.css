@@ -172,6 +172,7 @@ textarea{
     background-position: center;
     text-align: left;
     float:center;
+    margin-top:30px;
 
 }
 #portfolio{
@@ -220,6 +221,26 @@ textarea{
     width: 100%;
     height: auto;
   }
+  @keyframes fade {
+    from {background-color:blue;}
+    to {background-color: white;}
+  }
+  #about-me-section .container{
+    background-color:white;
+    animation-name: fade;
+    animation-duration: 4s;
+  }
+  #portfolio-section .container{
+    background-color:white;
+    animation-name: fade;
+    animation-duration: 4s;
+  }
+  #contact-form-section .container{
+    background-color:white;
+    animation-name: fade;
+    animation-duration: 4s;
+  }
+
 /* Global */
   @media screen and (max-width:980px) {
     .container{
