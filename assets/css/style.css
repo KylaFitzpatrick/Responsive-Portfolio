@@ -72,6 +72,7 @@ h1{
     font-family:'Georgia', Times, 'Times New Roman', serif;
     color:#ffffff;
     font-weight: bold;
+    font-size:30px;
 }
 h2{
     color:#4aaaa5;
@@ -79,6 +80,7 @@ h2{
     padding-bottom:20px; 
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-weight: bold;
+    font-size:30px;
 }
 footer{
     background-color:#666666;
@@ -227,14 +229,10 @@ textarea{
         float:left;
         margin-left:40px;
         margin-right:40px;
-        font-size: 30px;
     }
     header nav{
         margin-right: 20px;
         overflow:hidden;
-    }
-    h2{
-        font-size:30px;
     }
  }
   /* index.html 980px */
@@ -312,14 +310,10 @@ textarea{
     }
     header #logo-name h1{ 
         margin:0;
-        font-size: 30px;
     }
     header nav{
         margin-right: 20px;
         overflow:hidden;
-    }
-    h2{
-        font-size:30px;
     }
  }
 /* index.html 768 px */
@@ -383,7 +377,6 @@ textarea{
         width:100%;
         text-align: center;
         margin:0;
-        font-size: 30px;
     }
     header nav{
         width: 100%;
@@ -394,9 +387,6 @@ textarea{
     }
     header .container{
         overflow:hidden;
-    }
-    h2{
-        font-size:30px;
     }
 }
 /* index.html 640 px */
